@@ -1,0 +1,37 @@
+\hypertarget{_twin_prime_8cpp}{}\doxysection{Twin\+Prime.\+cpp File Reference}
+\label{_twin_prime_8cpp}\index{TwinPrime.cpp@{TwinPrime.cpp}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$omp.\+h$>$}\newline
+Include dependency graph for Twin\+Prime.\+cpp\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{_twin_prime_8cpp_ab31541ab88aebece242f24e54b622ba4}{is\+Prime}} (int n)
+\item 
+int \mbox{\hyperlink{_twin_prime_8cpp_a9b4cc10d5e00ecce792c12f0da7468c8}{count\+Primes}} (int p)
+\item 
+int \mbox{\hyperlink{_twin_prime_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{main}} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_twin_prime_8cpp_a9b4cc10d5e00ecce792c12f0da7468c8}\label{_twin_prime_8cpp_a9b4cc10d5e00ecce792c12f0da7468c8}} 
+\index{TwinPrime.cpp@{TwinPrime.cpp}!countPrimes@{countPrimes}}
+\index{countPrimes@{countPrimes}!TwinPrime.cpp@{TwinPrime.cpp}}
+\doxysubsubsection{\texorpdfstring{countPrimes()}{countPrimes()}}
+{\footnotesize\ttfamily int count\+Primes (\begin{DoxyParamCaption}\item[{int}]{p }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_twin_prime_8cpp_ab31541ab88aebece242f24e54b622ba4}\label{_twin_prime_8cpp_ab31541ab88aebece242f24e54b622ba4}} 
+\index{TwinPrime.cpp@{TwinPrime.cpp}!isPrime@{isPrime}}
+\index{isPrime@{isPrime}!TwinPrime.cpp@{TwinPrime.cpp}}
+\doxysubsubsection{\texorpdfstring{isPrime()}{isPrime()}}
+{\footnotesize\ttfamily bool is\+Prime (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_twin_prime_8cpp_a0ddf1224851353fc92bfbff6f499fa97}\label{_twin_prime_8cpp_a0ddf1224851353fc92bfbff6f499fa97}} 
+\index{TwinPrime.cpp@{TwinPrime.cpp}!main@{main}}
+\index{main@{main}!TwinPrime.cpp@{TwinPrime.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
